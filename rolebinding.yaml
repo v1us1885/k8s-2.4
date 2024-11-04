@@ -5,7 +5,7 @@ metadata:
   namespace: default
 subjects:
 - kind: User
-  name: user          # Имя пользователя должно совпадать с CN в сертификате
+  name: user
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
